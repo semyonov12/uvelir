@@ -5,7 +5,7 @@ $(document).ready(function(){
   	infinite:false,
   	responsive:[
   	{
-  		breakpoint: 600,
+  		breakpoint: 992,
   		settings: {
   			slidesToShow:1,
   			arrows:false
@@ -16,6 +16,6 @@ $(document).ready(function(){
    $('.slider2').slick({
   	dots:true,
   	infinite:false,
-
+    arrows:false
    });
 });
