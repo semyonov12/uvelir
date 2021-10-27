@@ -658,6 +658,26 @@ h1 .size{
 
 
 @media (max-width: 992px) {
+	.lorems {
+    margin-top: 80px;
+}
+	.was{
+		padding-top: 190px;
+	}
+	.border1{
+		padding-bottom: 0;
+	}
+	.header {
+    background: url(../img/bg1.png) no-repeat;
+    padding-top: 45px;
+    padding-bottom: 76px;
+	}
+	.reg{
+		padding: 15px 0;
+		font-size: 20px;
+		max-width: 312px;
+		margin: 0 auto;
+	}
 	.slider2{
 		display: block;
 	}
@@ -671,7 +691,7 @@ h1 .size{
 		flex-direction: column;
 	}
 	.footer__flex .promo{
-		margin: 20px 0;
+		margin: 40px 0;
 	}
 	.menu__tel{
 		display: none;
@@ -706,14 +726,15 @@ h1 .size{
 	}
 	h1{
 		font-size: 72px;
-		line-height: 88px;
+		line-height: 58px;
 		margin-right: 0;
 		text-align: center;
 		margin: 0 auto;
+		margin-top: 40px;
 
 	}
 	h1 .size{
-		font-size: 55px;
+		font-size: 45px;
 		line-height: 0;
 		text-align: center;
 	}
@@ -724,24 +745,27 @@ h1 .size{
 	.fl{
 		position: absolute;
 		left: 0;
-		top: 30%;
+		top: 23%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 	}
 	.header__item span{
-		font-size: 13px;
+		font-size: 8px;
 	}
 	.header__item img{
 		margin-left: 0;
 	}
 	.header__items{
 		max-width: 350px;
+		padding: 0;
 	}
 	.header__item {
-    width: 200px;
+    width: 160px;
+    border: 0;
 	}
 	.header p {
+		text-align: center;
 		margin-top: 200px;
 }
 
